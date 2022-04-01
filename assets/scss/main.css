@@ -1,0 +1,54 @@
+@import url(./element.scss);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 832px;
+  position: relative;
+}
+
+.header::before {
+  content: '';
+  background-color: #0B7572;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 45%;
+  height: 100%;
+  z-index: -1;
+}
+
+.header_top {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_top-text {
+  margin-right: 30px;
+}
+
+.header_top-text p {
+  padding-top: 10px;
+}
+/*# sourceMappingURL=main.css.map */
